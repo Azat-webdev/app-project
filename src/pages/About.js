@@ -1,16 +1,12 @@
 import React from 'react'
 
-const About = () => {
-  return (
-    <div class="jumbotron">
-    <div class="container">
-      <h1 class="display-4">React приложение</h1>
-      <p class="lead">
-        Версия приложения <strong>1.0.0</strong>
+export const About = () => (
+  <div className="jumbotron">
+    <div className="container">
+      <h1 className="display-4">Лучшее React приложение</h1>
+      <p className="lead">
+        Версия приложения <strong>1.0.42</strong>
       </p>
     </div>
   </div>
-  )
-}
-
-export default About;
+)
